@@ -1,1 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Room At The Back Shop</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f4f4f4;
+    }
 
+    header {
+      background-color: #222;
+      padding: 15px 20px;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 1.5em;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 20px;
+      font-weight: 500;
+    }
+
+    .main-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 100px 20px;
+      text-align: center;
+    }
+
+    .message-box {
+      background-color: white;
+      border: 1px solid #ccc;
+      border-radius: 12px;
+      padding: 40px 30px;
+      max-width: 600px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    .message-box h2 {
+      font-size: 1.8em;
+      margin-bottom: 10px;
+      color: #c0392b;
+    }
+
+    .message-box p {
+      font-size: 1.1em;
+      color: #555;
+    }
+
+    footer {
+      margin-top: 80px;
+      background-color: #222;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+
+    @media (max-width: 600px) {
+      .message-box {
+        padding: 25px 15px;
+      }
+
+      .message-box h2 {
+        font-size: 1.4em;
+      }
+
+      .message-box p {
+        font-size: 1em;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Room at the Back Shop</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Products</a>
+      <a href="#">Support</a>
+      <a href="#">Cart</a>
+    </nav>
+  </header>
+
+  <div class="main-content">
+    <div class="message-box">
+      <h2>We're Sorry!</h2>
+      <p>We Currently Not Have Enough Room For You. Please Try Again Later.</p>
+    </div>
+  </div>
+
+  <footer>
+    &copy; Room At The Back Shop
+  </footer>
+
+</body>
+</html>
